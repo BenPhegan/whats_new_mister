@@ -1,6 +1,6 @@
-# What's New Menu for MisterFPGA
+# "What's New" Menu for MisterFPGA
 
-This script provides a new menu within the MisterFPGA called "@WhatsNew".  Under this directory, it will link the latest set of Arcade core updates (the last three by default).
+This script provides a new menu within the MisterFPGA called "@WhatsNew".  Under this directory, it will link the latest set of Arcade core updates (the last three sets of updated MRAs by default).
 
 ## The Problem
 
