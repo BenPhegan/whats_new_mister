@@ -56,7 +56,7 @@ def main():
     print(f"MINIMUN_NUMBER_OF_FILES: {MINIMUN_NUMBER_OF_FILES}")
     print(f"NUMBER_OF_UPDATES_TO_SHOW: {NUMBER_OF_UPDATES_TO_SHOW}")
 
-    mra_files = glob.glob(f"{ARCADE_ROOT}/*.mra")
+    mra_files = glob.glob(f"{ARCADE_ROOT}/**/*.mra" , recursive = True)
 
     files_by_hour = {}
 
